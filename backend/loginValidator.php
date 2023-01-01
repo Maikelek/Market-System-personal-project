@@ -9,7 +9,7 @@
 
         if (!$mcNick || !$pass){
             $_SESSION['messageDanger'] = "Je potrebné vyplniť všetky polia";
-            header("Location: ../login.php");
+            header("Location: ../index.php");
             exit(0);
         }
 
